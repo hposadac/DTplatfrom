@@ -1,0 +1,5357 @@
+{
+    "IfcActuator": {
+        "class": [
+            "https://www.w3id.org/mep#Actuator",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ELECTRICACTUATOR": [
+                "https://www.w3id.org/mep#ElectricActuator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HANDOPERATEDACTUATOR": [
+                "https://www.w3id.org/mep#HandOperatedActuator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HYDRAULICACTUATOR": [
+                "https://www.w3id.org/mep#HydraulicActuator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PNEUMATICACTUATOR": [
+                "https://www.w3id.org/mep#PneumaticActuator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THERMOSTATICACTUATOR": [
+                "https://www.w3id.org/mep#ThermostaticActuator",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcAirTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#AirTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DIFFUSER": [
+                "https://www.w3id.org/mep#Diffuser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GRILLE": [
+                "https://www.w3id.org/mep#Grille",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LOUVRE": [
+                "https://www.w3id.org/mep#Louvre",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REGISTER": [
+                "https://www.w3id.org/mep#Register",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcAirTerminalBox": {
+        "class": [
+            "https://www.w3id.org/mep#AirTerminalBox",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CONSTANTFLOW": [
+                "https://www.w3id.org/mep#ConstantFlowTerminalBox",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VARIABLEFLOWPRESSUREDEPENDANT": [
+                "https://www.w3id.org/mep#VariableFlowPressureDependantTerminalBOx",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VARIABLEFLOWPRESSUREINDEPENDANT": [
+                "https://www.w3id.org/mep#VariableFlowPressureIndependantTerminalBox",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcAirToAirHeatRecovery": {
+        "class": [
+            "https://www.w3id.org/mep#AirToAirHeatRecovery",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FIXEDPLATECOUNTERFLOWEXCHANGER": [
+                "https://www.w3id.org/mep#FixedPlateCounterFlowExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIXEDPLATECROSSFLOWEXCHANGER": [
+                "https://www.w3id.org/mep#FixedPlateCrossFlowExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIXEDPLATEPARALLELFLOWEXCHANGER": [
+                "https://www.w3id.org/mep#FixedPlateParallelFlowExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HEATPIPE": [
+                "https://www.w3id.org/mep#HeatPipe",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROTARYWHEEL": [
+                "https://www.w3id.org/mep#RotaryWheel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RUNAROUNDCOILLOOP": [
+                "https://www.w3id.org/mep#Run-aroundCoilLoop",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THERMOSIPHONCOILTYPEHEATEXCHANGERS": [
+                "https://www.w3id.org/mep#ThermosiphonCoilTypeHeatExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THERMOSIPHONSEALEDTUBEHEATEXCHANGERS": [
+                "https://www.w3id.org/mep#ThermosiphonSealedTubeHeatExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWINTOWERENTHALPYRECOVERYLOOPS": [
+                "https://www.w3id.org/mep#TwinTowerEnthalpyRecoveryLoops",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcAlarm": {
+        "class": [
+            "https://www.w3id.org/mep#Alarm",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BELL": [
+                "https://www.w3id.org/mep#Bell",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BREAKGLASSBUTTON": [
+                "https://www.w3id.org/mep#BreakglassButton",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LIGHT": [
+                "https://www.w3id.org/mep#Light",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MANUALPULLBOX": [
+                "https://www.w3id.org/mep#ManualPullBox",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAILWAYCROCODILE": [
+                "https://www.w3id.org/mep#RailwayCrocodile",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAILWAYDETONATOR": [
+                "https://www.w3id.org/mep#RailwayDetonator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SIREN": [
+                "https://www.w3id.org/mep#Siren",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WHISTLE": [
+                "https://www.w3id.org/mep#Whistle",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcAudioVisualAppliance": {
+        "class": [
+            "https://www.w3id.org/mep#AudioVisualAppliance",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AMPLIFIER": [
+                "https://www.w3id.org/mep#Amplifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CAMERA": [
+                "https://www.w3id.org/mep#Camera",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMMUNICATIONTERMINAL": [
+                "https://www.w3id.org/mep#CommunicationTerminal",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DISPLAY": [
+                "https://www.w3id.org/mep#Display",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MICROPHONE": [
+                "https://www.w3id.org/mep#Microphone",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PLAYER": [
+                "https://www.w3id.org/mep#Player",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PROJECTOR": [
+                "https://www.w3id.org/mep#Projector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RECEIVER": [
+                "https://www.w3id.org/mep#Reciever",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RECORDINGEQUIPMENT": [
+                "https://www.w3id.org/mep#RecordingEquipment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPEAKER": [
+                "https://www.w3id.org/mep#Speaker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SWITCHER": [
+                "https://www.w3id.org/mep#Switcher",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TELEPHONE": [
+                "https://www.w3id.org/mep#Telephone",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TUNER": [
+                "https://www.w3id.org/mep#Tuner",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBeam": {
+        "class": [
+            "https://www.w3id.org/beo#Beam",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CORNICE": [
+                "https://www.w3id.org/beo#Cornice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIAPHRAGM": [
+                "https://www.w3id.org/beo#Diaphragm",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EDGEBEAM": [
+                "https://www.w3id.org/beo#EdgeBeam",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GIRDER_SEGMENT": [
+                "https://www.w3id.org/brcomp#GirderSegment",
+                "https://www.w3id.org/beo#GirderSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HATSTONE": [
+                "https://www.w3id.org/beo#HatstoneBeam",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HOLLOWCORE": [
+                "https://www.w3id.org/beo#HollowcoreBeam",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JOIST": [
+                "https://www.w3id.org/beo#JoistBeam",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LINTEL": [
+                "https://www.w3id.org/beo#Lintel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PIERCAP": [
+                "https://www.w3id.org/beo#PierCap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPANDREL": [
+                "https://www.w3id.org/beo#Sprandel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "T_BEAM": [
+                "https://www.w3id.org/beo#TBeam",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBearing": {
+        "class": [
+            "https://www.w3id.org/beo#Bearing",
+            "https://www.w3id.org/brcomp#Bearing",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CYLINDRICAL": [
+                "https://www.w3id.org/beo#CylindricalBearing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DISK": [
+                "https://www.w3id.org/beo#DiskBearing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ELASTOMERIC": [
+                "https://www.w3id.org/brcomp#ElastomericBearings",
+                "https://www.w3id.org/beo#ElastomericBearing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GUIDE": [
+                "https://www.w3id.org/brcomp#SphericalBearings",
+                "https://www.w3id.org/beo#GuideBearing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POT": [
+                "https://www.w3id.org/brcomp#PotBearings",
+                "https://www.w3id.org/beo#Pot",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROCKER": [
+                "https://www.w3id.org/brcomp#RockerBearing",
+                "https://www.w3id.org/beo#Rocker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROLLER": [
+                "https://www.w3id.org/brcomp#RollerBearing",
+                "https://www.w3id.org/beo#Roller",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPHERICAL": [
+                "https://www.w3id.org/brcomp#SphericalBearings",
+                "https://www.w3id.org/beo#SphericalBearing",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBoiler": {
+        "class": [
+            "https://www.w3id.org/mep#Boiler",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "STEAM": [
+                "https://www.w3id.org/mep#SteamBoiler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATER": [
+                "https://www.w3id.org/mep#WaterBoiler",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBridge": {
+        "class": [
+            "https://www.w3id.org/bot#Zone",
+            "https://www.w3id.org/brot#Bridge",
+            "https://www.w3id.org/bot#Building"
+        ],
+        "enum": {
+            "CANTILEVER": [
+                "https://www.w3id.org/brot#Bridge",
+                "https://www.w3id.org/bridge#BeamBridge",
+                "https://www.w3id.org/bot#Building"
+            ],
+            "FRAMEWORK": [
+                "https://www.w3id.org/brot#Bridge",
+                "https://www.w3id.org/bridge#BeamBridge",
+                "https://www.w3id.org/bot#Building"
+            ],
+            "GIRDER": [
+                "https://www.w3id.org/brot#Bridge",
+                "https://www.w3id.org/bridge#GirderBridge",
+                "https://www.w3id.org/bridge#BeamBridge",
+                "https://www.w3id.org/bot#Building"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcBridgePart": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcBuilding": {
+        "class": [
+            "https://www.w3id.org/bot#Zone",
+            "https://www.w3id.org/bot#Building"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcBuildingElementPart": {
+        "class": [
+            "https://www.w3id.org/beo#BuildingElementPart",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "APRON": [
+                "https://www.w3id.org/beo#Apron",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ARMOURUNIT": [
+                "https://www.w3id.org/beo#ArmourUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INSULATION": [
+                "https://www.w3id.org/beo#InsulationElement",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRECASTPANEL": [
+                "https://www.w3id.org/beo#PrecastPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SAFETYCAGE": [
+                "https://www.w3id.org/beo#SafetyCage",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBuildingElementProxy": {
+        "class": [
+            "https://www.w3id.org/beo#BuiltElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBuildingStorey": {
+        "class": [
+            "https://www.w3id.org/bot#Zone",
+            "https://www.w3id.org/bot#Storey"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcBuiltElement": {
+        "class": [
+            "https://www.w3id.org/beo#BuiltElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcBurner": {
+        "class": [
+            "https://www.w3id.org/mep#Burner",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCableCarrierFitting": {
+        "class": [
+            "https://www.w3id.org/mep#CableCarrierFitting",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BEND": [
+                "https://www.w3id.org/mep#CableCarrierBend",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONNECTOR": [
+                "https://www.w3id.org/mep#CableCarrierConnector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JUNCTION": [
+                "https://www.w3id.org/mep#CableCarrierJunction",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSITION": [
+                "https://www.w3id.org/mep#CableCarrierTransition",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCableCarrierSegment": {
+        "class": [
+            "https://www.w3id.org/mep#CableCarrierSegment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CABLEBRACKET": [
+                "https://www.w3id.org/mep#CableBracket",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CABLELADDERSEGMENT": [
+                "https://www.w3id.org/mep#CableLadderSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CABLETRAYSEGMENT": [
+                "https://www.w3id.org/mep#CableTraySegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CABLETRUNKINGSEGMENT": [
+                "https://www.w3id.org/mep#CableTrunkingSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CATENARYWIRE": [
+                "https://www.w3id.org/mep#CatenaryWire",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONDUITSEGMENT": [
+                "https://www.w3id.org/mep#ConduitSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DROPPER": [
+                "https://www.w3id.org/mep#Dropper",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCableFitting": {
+        "class": [
+            "https://www.w3id.org/mep#CableFitting",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CONNECTOR": [
+                "https://www.w3id.org/mep#CableConnector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ENTRY": [
+                "https://www.w3id.org/mep#CableEntry",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EXIT": [
+                "https://www.w3id.org/mep#CableExit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FANOUT": [
+                "https://www.w3id.org/mep#CableFanout",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JUNCTION": [
+                "https://www.w3id.org/mep#CableJunction",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSITION": [
+                "https://www.w3id.org/mep#CableTransition",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCableSegment": {
+        "class": [
+            "https://www.w3id.org/mep#CableSegment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BUSBARSEGMENT": [
+                "https://www.w3id.org/mep#BusBarSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONDUCTORSEGMENT": [
+                "https://www.w3id.org/mep#ConductorSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONTACTWIRESEGMENT": [
+                "https://www.w3id.org/mep#ContactWireSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CORESEGMENT": [
+                "https://www.w3id.org/mep#CoreSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIBERSEGMENT": [
+                "https://www.w3id.org/mep#FiberSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIBERTUBE": [
+                "https://www.w3id.org/mep#FiberTube",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OPTICALCABLESEGMENT": [
+                "https://www.w3id.org/mep#OpticalCableSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STITCHWIRE": [
+                "https://www.w3id.org/mep#SticthWire",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WIREPAIRSEGMENT": [
+                "https://www.w3id.org/mep#WirePairSegment",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCaissonFoundation": {
+        "class": [
+            "https://www.w3id.org/beo#CaissonFoundation",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CAISSON": [
+                "https://www.w3id.org/beo#Caisson",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WELL": [
+                "https://www.w3id.org/beo#Well",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcChiller": {
+        "class": [
+            "https://www.w3id.org/mep#Chiller",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AIRCOOLED": [
+                "https://www.w3id.org/mep#AircooledChiller",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HEATRECOVERY": [
+                "https://www.w3id.org/mep#HeatRecoveryChiller",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLED": [
+                "https://www.w3id.org/mep#WaterCooledChiller",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcChimney": {
+        "class": [
+            "https://www.w3id.org/beo#Chimney",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCoil": {
+        "class": [
+            "https://www.w3id.org/mep#Coil",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DXCOOLINGCOIL": [
+                "https://www.w3id.org/mep#DXCoolingCoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ELECTRICHEATINGCOIL": [
+                "https://www.w3id.org/mep#ElectricHeatingCoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GASHEATINGCOIL": [
+                "https://www.w3id.org/mep#GasHeatCoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HYDRONICCOIL": [
+                "https://www.w3id.org/mep#HydronicCoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STEAMHEATINGCOIL": [
+                "https://www.w3id.org/mep#SteamHeatingCoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLINGCOIL": [
+                "https://www.w3id.org/mep#WaterCoolingCoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERHEATINGCOIL": [
+                "https://www.w3id.org/mep#WaterHeatingCoil",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcColumn": {
+        "class": [
+            "https://www.w3id.org/beo#Column",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "PIERSTEM": [
+                "https://www.w3id.org/beo#PierStem",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PIERSTEM_SEGMENT": [
+                "https://www.w3id.org/beo#PierStemSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PILASTER": [
+                "https://www.w3id.org/beo#Pilaster",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STANDCOLUMN": [
+                "https://www.w3id.org/beo#STANDCOLUMN",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCommunicationsAppliance": {
+        "class": [
+            "https://www.w3id.org/mep#CommunicationsAppliance",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ANTENNA": [
+                "https://www.w3id.org/mep#Antenna",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "AUTOMATON": [
+                "https://www.w3id.org/mep#Automaton",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMPUTER": [
+                "https://www.w3id.org/mep#Computer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FAX": [
+                "https://www.w3id.org/mep#Fax",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GATEWAY": [
+                "https://www.w3id.org/mep#Gateway",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INTELLIGENTPERIPHERAL": [
+                "https://www.w3id.org/mep#IntelligentPeripheral",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "IPNETWORKEQUIPMENT": [
+                "https://www.w3id.org/mep#IPNetworkEquipment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LINESIDEELECTRONICUNIT": [
+                "https://www.w3id.org/mep#LinesideElectronicUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MODEM": [
+                "https://www.w3id.org/mep#Modem",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "NETWORKAPPLIANCE": [
+                "https://www.w3id.org/mep#NetworkAppliance",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "NETWORKBRIDGE": [
+                "https://www.w3id.org/mep#NetworkBridge",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "NETWORKHUB": [
+                "https://www.w3id.org/mep#NetworkHub",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OPTICALLINETERMINAL": [
+                "https://www.w3id.org/mep#OpticalLineTerminal",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OPTICALNETWORKUNIT": [
+                "https://www.w3id.org/mep#OpticalNetworkUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRINTER": [
+                "https://www.w3id.org/mep#Printer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RADIOBLOCKCENTER": [
+                "https://www.w3id.org/mep#RadioBlockCenter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REPEATER": [
+                "https://www.w3id.org/mep#Repeater",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROUTER": [
+                "https://www.w3id.org/mep#Router",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SCANNER": [
+                "https://www.w3id.org/mep#Scanner",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TELECOMMAND": [
+                "https://www.w3id.org/mep#Telecommand",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TELEPHONYEXCHANGE": [
+                "https://www.w3id.org/mep#TelephonyExchange",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSITIONCOMPONENT": [
+                "https://www.w3id.org/mep#TransitionComponent",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSPONDER": [
+                "https://www.w3id.org/mep#Trasnponder",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSPORTEQUIPMENT": [
+                "https://www.w3id.org/mep#TrasnportUnit",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCompressor": {
+        "class": [
+            "https://www.w3id.org/mep#Compressor",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BOOSTER": [
+                "https://www.w3id.org/mep#Booster",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DYNAMIC": [
+                "https://www.w3id.org/mep#DynamicCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HERMETIC": [
+                "https://www.w3id.org/mep#HermeticCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OPENTYPE": [
+                "https://www.w3id.org/mep#OpenTypeCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RECIPROCATING": [
+                "https://www.w3id.org/mep#ReciprocatingCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROLLINGPISTON": [
+                "https://www.w3id.org/mep#RollingPiston",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROTARY": [
+                "https://www.w3id.org/mep#RotaryCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROTARYVANE": [
+                "https://www.w3id.org/mep#RotaryVaneCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SCROLL": [
+                "https://www.w3id.org/mep#ScrollCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SEMIHERMETIC": [
+                "https://www.w3id.org/mep#Semi-hermeticCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SINGLESCREW": [
+                "https://www.w3id.org/mep#SingleScrewCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SINGLESTAGE": [
+                "https://www.w3id.org/mep#SingleStageCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TROCHOIDAL": [
+                "https://www.w3id.org/mep#TrochoidalCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWINSCREW": [
+                "https://www.w3id.org/mep#ThinScrewCompressor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WELDEDSHELLHERMETIC": [
+                "https://www.w3id.org/mep#WeldedShellHermeticCompressor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCondenser": {
+        "class": [
+            "https://www.w3id.org/mep#Condenser",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AIRCOOLED": [
+                "https://www.w3id.org/mep#Air-cooledCondenser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EVAPORATIVECOOLED": [
+                "https://www.w3id.org/mep#EvaporativeCooledCondenser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLED": [
+                "https://www.w3id.org/mep#Water-cooledCondenser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLEDBRAZEDPLATE": [
+                "https://www.w3id.org/mep#Water-cooledBrazed-plateCondenser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLEDSHELLCOIL": [
+                "https://www.w3id.org/mep#Water-cooledShellCoilCondenser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLEDSHELLTUBE": [
+                "https://www.w3id.org/mep#Water-cooledShellTubeCondenser",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERCOOLEDTUBEINTUBE": [
+                "https://www.w3id.org/mep#Water-cooledTube-in-TubeCondenser",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcController": {
+        "class": [
+            "https://www.w3id.org/mep#Controller",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FLOATING": [
+                "https://www.w3id.org/mep#FloatingController",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MULTIPOSITION": [
+                "https://www.w3id.org/mep#MultipositionController",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PROGRAMMABLE": [
+                "https://www.w3id.org/mep#ProgrammableController",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PROPORTIONAL": [
+                "https://www.w3id.org/mep#ProportionalController",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWOPOSITION": [
+                "https://www.w3id.org/mep#Two-positionController",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcConveyorSegment": {
+        "class": [
+            "https://www.w3id.org/mep#ConveyorSegment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BELTCONVEYOR": [
+                "https://www.w3id.org/mep#BeltConveyor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BUCKETCONVEYOR": [
+                "https://www.w3id.org/mep#BucketConveyor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CHUTECONVEYOR": [
+                "https://www.w3id.org/mep#ChuteConveyor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SCREWCONVEYOR": [
+                "https://www.w3id.org/mep#ScrewConveyor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCooledBeam": {
+        "class": [
+            "https://www.w3id.org/mep#CooledBeam",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ACTIVE": [
+                "https://www.w3id.org/mep#ActiveCooledBeam",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PASSIVE": [
+                "https://www.w3id.org/mep#PassiveCooledBeam",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCoolingTower": {
+        "class": [
+            "https://www.w3id.org/mep#CoolingTower",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "MECHANICALFORCEDDRAFT": [
+                "https://www.w3id.org/mep#MechanicalForcedDraftCoolingTower",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MECHANICALINDUCEDDRAFT": [
+                "https://www.w3id.org/mep#MechanicalInducedDraftCoolingTower",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "NATURALDRAFT": [
+                "https://www.w3id.org/mep#NaturalDraftCoolingTower",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCourse": {
+        "class": [
+            "https://www.w3id.org/beo#Course",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ARMOUR": [
+                "https://www.w3id.org/beo#Armour",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BALLASTBED": [
+                "https://www.w3id.org/beo#BallastedCourse",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CORE": [
+                "https://www.w3id.org/beo#CoreCourse",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FILTER": [
+                "https://www.w3id.org/beo#FilterCourse",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PAVEMENT": [
+                "https://www.w3id.org/beo#PavementCourse",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PROTECTION": [
+                "https://www.w3id.org/beo#ProtectionCourse",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCovering": {
+        "class": [
+            "https://www.w3id.org/beo#Covering",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CEILING": [
+                "https://www.w3id.org/beo#Ceiling",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CLADDING": [
+                "https://www.w3id.org/beo#Cladding",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COPING": [
+                "https://www.w3id.org/beo#Coping",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLOORING": [
+                "https://www.w3id.org/beo#Flooring",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INSULATION": [
+                "https://www.w3id.org/beo#Insulation",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MEMBRANE": [
+                "https://www.w3id.org/beo#Membrane",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOLDING": [
+                "https://www.w3id.org/beo#Molding",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROOFING": [
+                "https://www.w3id.org/beo#RoofingCovering",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SKIRTINGBOARD": [
+                "https://www.w3id.org/beo#SkirtingBoard",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SLEEVING": [
+                "https://www.w3id.org/beo#Sleeving",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TOPPING": [
+                "https://www.w3id.org/beo#Topping",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WRAPPING": [
+                "https://www.w3id.org/beo#Wrapping",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcCurtainWall": {
+        "class": [
+            "https://www.w3id.org/beo#CurtainWall",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDamper": {
+        "class": [
+            "https://www.w3id.org/mep#Damper",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BACKDRAFTDAMPER": [
+                "https://www.w3id.org/mep#BackdraftDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BALANCINGDAMPER": [
+                "https://www.w3id.org/mep#BalancingDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BLASTDAMPER": [
+                "https://www.w3id.org/mep#BlastDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONTROLDAMPER": [
+                "https://www.w3id.org/mep#ControlDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIREDAMPER": [
+                "https://www.w3id.org/mep#FireDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIRESMOKEDAMPER": [
+                "https://www.w3id.org/mep#FireSmokeDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FUMEHOODEXHAUST": [
+                "https://www.w3id.org/mep#FumeHoodExhaustDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GRAVITYDAMPER": [
+                "https://www.w3id.org/mep#GravityDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GRAVITYRELIEFDAMPER": [
+                "https://www.w3id.org/mep#Gravity-reliefDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RELIEFDAMPER": [
+                "https://www.w3id.org/mep#ReliefDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SMOKEDAMPER": [
+                "https://www.w3id.org/mep#SmokeDamper",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDeepFoundation": {
+        "class": [
+            "https://www.w3id.org/beo#DeepFoundation",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDiscreteAccessory": {
+        "class": [
+            "https://www.w3id.org/beo#DiscreteAccessory",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ANCHORPLATE": [
+                "https://www.w3id.org/beo#AchorPlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BIRDPROTECTION": [
+                "https://www.w3id.org/beo#BirdProtection",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BRACKET": [
+                "https://www.w3id.org/beo#BRACKET",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CABLEARRANGER": [
+                "https://www.w3id.org/beo#CableArranger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ELASTIC_CUSHION": [
+                "https://www.w3id.org/beo#ElasticCushion",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EXPANSION_JOINT_DEVICE": [
+                "https://www.w3id.org/beo#ExpansionJointDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FILLER": [
+                "https://www.w3id.org/beo#Filler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLASHING": [
+                "https://www.w3id.org/beo#Flashing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INSULATOR": [
+                "https://www.w3id.org/beo#Insulator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LOCK": [
+                "https://www.w3id.org/beo#Lock",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PANEL_STRENGTHENING": [
+                "https://www.w3id.org/beo#PANELSTRENGTHENING",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POINTMACHINEMOUNTINGDEVICE": [
+                "https://www.w3id.org/beo#PointMachineMountingDevice.",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POINT_MACHINE_LOCKING_DEVICE": [
+                "https://www.w3id.org/beo#PointMachineLockingDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAILBRACE": [
+                "https://www.w3id.org/beo#RailBrace",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAILPAD": [
+                "https://www.w3id.org/beo#RailPad",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAIL_LUBRICATION": [
+                "https://www.w3id.org/beo#RailLubrication",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAIL_MECHANICAL_EQUIPMENT": [
+                "https://www.w3id.org/beo#RailMechanicalEquipment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHOE": [
+                "https://www.w3id.org/beo#Shoe",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SLIDINGCHAIR": [
+                "https://www.w3id.org/beo#SlidingChair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SOUNDABSORPTION": [
+                "https://www.w3id.org/beo#SoundAbsortion",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TENSIONINGEQUIPMENT": [
+                "https://www.w3id.org/beo#TensionEquipment",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDistributionBoard": {
+        "class": [
+            "https://www.w3id.org/mep#DistributionBoard",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CONSUMERUNIT": [
+                "https://www.w3id.org/mep#ConsumerUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DISPATCHINGBOARD": [
+                "https://www.w3id.org/mep#DispatchingBoard",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DISTRIBUTIONFRAME": [
+                "https://www.w3id.org/mep#DistributionFrame",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOTORCONTROLCENTRE": [
+                "https://www.w3id.org/mep#MotorControlCentre",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SWITCHBOARD": [
+                "https://www.w3id.org/mep#SwitchBoard",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDistributionChamberElement": {
+        "class": [
+            "https://www.w3id.org/mep#DistributionChamberElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FORMEDDUCT": [
+                "https://www.w3id.org/mep#FormedDuct",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INSPECTIONCHAMBER": [
+                "https://www.w3id.org/mep#InspectionChamber",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INSPECTIONPIT": [
+                "https://www.w3id.org/mep#InspectionPit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MANHOLE": [
+                "https://www.w3id.org/mep#Manhole",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "METERCHAMBER": [
+                "https://www.w3id.org/mep#MeterChamber",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUMP": [
+                "https://www.w3id.org/mep#Sump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRENCH": [
+                "https://www.w3id.org/mep#Trench",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VALVECHAMBER": [
+                "https://www.w3id.org/mep#ValveChamber",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDistributionControlElement": {
+        "class": [
+            "https://www.w3id.org/mep#DistributionControlElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDistributionElement": {
+        "class": [
+            "https://www.w3id.org/mep#DistributionElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDistributionFlowElement": {
+        "class": [
+            "https://www.w3id.org/mep#DistributionFlowElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDoor": {
+        "class": [
+            "https://www.w3id.org/beo#Door",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BOOM_BARRIER": [
+                "https://www.w3id.org/beo#BoomBarrier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GATE": [
+                "https://www.w3id.org/beo#Gate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRAPDOOR": [
+                "https://www.w3id.org/beo#Trapdoor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TURNSTILE": [
+                "https://www.w3id.org/beo#Trunstile",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "OverallHeight": "https://www.w3id.org/beo#OverallHeight",
+            "OverallWidth": "https://www.w3id.org/beo#OverallWidth"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDuctFitting": {
+        "class": [
+            "https://www.w3id.org/mep#DuctFitting",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BEND": [
+                "https://www.w3id.org/mep#DuctBend",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONNECTOR": [
+                "https://www.w3id.org/mep#DuctConnector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ENTRY": [
+                "https://www.w3id.org/mep#DuctEntry",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EXIT": [
+                "https://www.w3id.org/mep#DuctExit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JUNCTION": [
+                "https://www.w3id.org/mep#DuctJuntion",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OBSTRUCTION": [
+                "https://www.w3id.org/mep#DuctObstruction",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSITION": [
+                "https://www.w3id.org/mep#DuctTransition",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDuctSegment": {
+        "class": [
+            "https://www.w3id.org/mep#DuctSegment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FLEXIBLESEGMENT": [
+                "https://www.w3id.org/mep#FlexibleDuctSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RIGIDSEGMENT": [
+                "https://www.w3id.org/mep#RigidDuctSegment",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcDuctSilencer": {
+        "class": [
+            "https://www.w3id.org/mep#DuctSilencer",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FLATOVAL": [
+                "https://www.w3id.org/mep#Flat-ovalSilencer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RECTANGULAR": [
+                "https://www.w3id.org/mep#RectangularSilencer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROUND": [
+                "https://www.w3id.org/mep#RoundSilencer",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcEarthworksElement": {
+        "class": [
+            "https://www.w3id.org/beo#EarthworksElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcEarthworksFill": {
+        "class": [
+            "https://www.w3id.org/beo#EarthworksFill",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BACKFILL": [
+                "https://www.w3id.org/beo#Backfill",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COUNTERWEIGHT": [
+                "https://www.w3id.org/beo#Counterweigth",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EMBANKMENT": [
+                "https://www.w3id.org/beo#Embankment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SLOPEFILL": [
+                "https://www.w3id.org/beo#SlopeFill",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUBGRADE": [
+                "https://www.w3id.org/beo#Subgrade",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUBGRADEBED": [
+                "https://www.w3id.org/beo#SubgradeBed",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSITIONSECTION": [
+                "https://www.w3id.org/beo#TransitionSection",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElectricAppliance": {
+        "class": [
+            "https://www.w3id.org/mep#ElectricAppliance",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DISHWASHER": [
+                "https://www.w3id.org/mep#Dishwasher",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ELECTRICCOOKER": [
+                "https://www.w3id.org/mep#ElectricCooker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREESTANDINGELECTRICHEATER": [
+                "https://www.w3id.org/mep#FreestandingElectricHeater",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREESTANDINGFAN": [
+                "https://www.w3id.org/mep#FreestandingFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREESTANDINGWATERCOOLER": [
+                "https://www.w3id.org/mep#FreestandingWaterCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREESTANDINGWATERHEATER": [
+                "https://www.w3id.org/mep#FreestandingWaterHeater",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREEZER": [
+                "https://www.w3id.org/mep#Freezer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FRIDGE_FREEZER": [
+                "https://www.w3id.org/mep#Fridge-Freezer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HANDDRYER": [
+                "https://www.w3id.org/mep#HandDryer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "KITCHENMACHINE": [
+                "https://www.w3id.org/mep#KitchenMachine",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MICROWAVE": [
+                "https://www.w3id.org/mep#Microwave",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PHOTOCOPIER": [
+                "https://www.w3id.org/mep#Photocopier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REFRIGERATOR": [
+                "https://www.w3id.org/mep#Refrigerator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TUMBLEDRYER": [
+                "https://www.w3id.org/mep#TumbleDryer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VENDINGMACHINE": [
+                "https://www.w3id.org/mep#VendingMachine",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WASHINGMACHINE": [
+                "https://www.w3id.org/mep#WashingMachine",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElectricFlowStorageDevice": {
+        "class": [
+            "https://www.w3id.org/mep#ElectricFlowStorageDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BATTERY": [
+                "https://www.w3id.org/mep#Battery",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CAPACITOR": [
+                "https://www.w3id.org/mep#Capacitor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CAPACITORBANK": [
+                "https://www.w3id.org/mep#CapacitorBank",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMPENSATOR": [
+                "https://www.w3id.org/mep#Compensator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HARMONICFILTER": [
+                "https://www.w3id.org/mep#HarmonicFilter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDUCTOR": [
+                "https://www.w3id.org/mep#Inductor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDUCTORBANK": [
+                "https://www.w3id.org/mep#InductorBank",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RECHARGER": [
+                "https://www.w3id.org/mep#Recharger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "UPS": [
+                "https://www.w3id.org/mep#UPS",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElectricFlowTreatmentDevice": {
+        "class": [
+            "https://www.w3id.org/mep#ElectricFlowTreatmentDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ELECTRONICFILTER": [
+                "https://www.w3id.org/mep#ElectronicFilter",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElectricGenerator": {
+        "class": [
+            "https://www.w3id.org/mep#ElectricGenerator",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CHP": [
+                "https://www.w3id.org/mep#CHP",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ENGINEGENERATOR": [
+                "https://www.w3id.org/mep#EngineGenerator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STANDALONE": [
+                "https://www.w3id.org/mep#StandaloneGenerator",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElectricMotor": {
+        "class": [
+            "https://www.w3id.org/mep#ElectricMotor",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DC": [
+                "https://www.w3id.org/mep#DCMotor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDUCTION": [
+                "https://www.w3id.org/mep#InductionMotor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POLYPHASE": [
+                "https://www.w3id.org/mep#PolyphaseMotor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RELUCTANCESYNCHRONOUS": [
+                "https://www.w3id.org/mep#ReluctanceSynchronousMotor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SYNCHRONOUS": [
+                "https://www.w3id.org/mep#SynchronousMotor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElectricTimeControl": {
+        "class": [
+            "https://www.w3id.org/mep#ElectricTimeControl",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "RELAY": [
+                "https://www.w3id.org/mep#TimeRelay",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TIMECLOCK": [
+                "https://www.w3id.org/mep#Timelock",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TIMEDELAY": [
+                "https://www.w3id.org/mep#TimeDelay",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcElementAssembly": {
+        "class": [
+            "https://www.w3id.org/beo#ElementAssembly",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ABUTMENT": [
+                "https://www.w3id.org/brcomp#Abutment",
+                "https://www.w3id.org/beo#AbutmentAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ARCH": [
+                "https://www.w3id.org/beo#Arch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BEAM_GRID": [
+                "https://www.w3id.org/beo#BeamGrid",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BRACED_FRAME": [
+                "https://www.w3id.org/beo#BracedFrame",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CROSS_BRACING": [
+                "https://www.w3id.org/beo#CrossBracing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DECK": [
+                "https://www.w3id.org/brcomp#GirderDeck",
+                "https://www.w3id.org/beo#DeckAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DILATATIONPANEL": [
+                "https://www.w3id.org/beo#DilatationPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ENTRANCEWORKS": [
+                "https://www.w3id.org/beo#EntranceWorks",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GIRDER": [
+                "https://www.w3id.org/brcomp#GirderComponent",
+                "https://www.w3id.org/beo#Girder",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GRID": [
+                "https://www.w3id.org/beo#Grid",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MAST": [
+                "https://www.w3id.org/beo#Mast",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PIER": [
+                "https://www.w3id.org/brcomp#Pier",
+                "https://www.w3id.org/beo#PierAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PYLON": [
+                "https://www.w3id.org/beo#PylonAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAIL_MECHANICAL_EQUIPMENT_ASSEMBLY": [
+                "https://www.w3id.org/beo#RailMechanicalEquipmentAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REINFORCEMENT_UNIT": [
+                "https://www.w3id.org/beo#ReinforcmentUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RIGID_FRAME": [
+                "https://www.w3id.org/beo#RigidFrame",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHELTER": [
+                "https://www.w3id.org/beo#Shelter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SIGNALASSEMBLY": [
+                "https://www.w3id.org/beo#SignalAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SLAB_FIELD": [
+                "https://www.w3id.org/beo#SlabField",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUMPBUSTER": [
+                "https://www.w3id.org/beo#SumpBuster",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUPPORTINGASSEMBLY": [
+                "https://www.w3id.org/beo#SupportingGasAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUSPENSIONASSEMBLY": [
+                "https://www.w3id.org/beo#SuspensionAssembly",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRACKPANEL": [
+                "https://www.w3id.org/beo#TrackPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRAFFIC_CALMING_DEVICE": [
+                "https://www.w3id.org/beo#TrafficCalminfgDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRUSS": [
+                "https://www.w3id.org/beo#Truss",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TURNOUTPANEL": [
+                "https://www.w3id.org/beo#TurnoutPanel",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcEnergyConversionDevice": {
+        "class": [
+            "https://www.w3id.org/mep#EnergyConversionDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcEngine": {
+        "class": [
+            "https://www.w3id.org/mep#Engine",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "EXTERNALCOMBUSTION": [
+                "https://www.w3id.org/mep#ExternalCombustionMotor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INTERNALCOMBUSTION": [
+                "https://www.w3id.org/mep#InternalCombustionMotor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcEvaporativeCooler": {
+        "class": [
+            "https://www.w3id.org/mep#EvaporativeCooler",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DIRECTEVAPORATIVEAIRWASHER": [
+                "https://www.w3id.org/mep#DirectVaporativeWasher",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER": [
+                "https://www.w3id.org/mep#DirectEvaporativePackagedRotaryAirCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER": [
+                "https://www.w3id.org/mep#DirectEvaporativeRandomMediaAirCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER": [
+                "https://www.w3id.org/mep#DirectEvaporativeRigidMediaAirCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER": [
+                "https://www.w3id.org/mep#DirectEvaporativeSlingersPackagedAirCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDIRECTDIRECTCOMBINATION": [
+                "https://www.w3id.org/mep#IndirectDirectCombination",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER": [
+                "https://www.w3id.org/mep#IndirectEvaporativeCoolingTowerorCoilCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDIRECTEVAPORATIVEPACKAGEAIRCOOLER": [
+                "https://www.w3id.org/mep#IndirectEvaporativePackageAirCooler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDIRECTEVAPORATIVEWETCOIL": [
+                "https://www.w3id.org/mep#IndirectEvaporativeWetCoil",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcEvaporator": {
+        "class": [
+            "https://www.w3id.org/mep#Evaporator",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DIRECTEXPANSION": [
+                "https://www.w3id.org/mep#DirectExpansionEvaporator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEXPANSIONBRAZEDPLATE": [
+                "https://www.w3id.org/mep#DirectExpansionBrazedPlateEvaporator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEXPANSIONSHELLANDTUBE": [
+                "https://www.w3id.org/mep#DirectExpansionShell-and-TubeEvaporator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTEXPANSIONTUBEINTUBE": [
+                "https://www.w3id.org/mep#DirectExpansionTube-in-TubeEvaporator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLOODEDSHELLANDTUBE": [
+                "https://www.w3id.org/mep#FloodedShellandTubeEvaporator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHELLANDCOIL": [
+                "https://www.w3id.org/mep#ShellandCoilEvaporator",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFacility": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcFacilityPartCommon": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcFan": {
+        "class": [
+            "https://www.w3id.org/mep#Fan",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CENTRIFUGALAIRFOIL": [
+                "https://www.w3id.org/mep#CentrifugalAirfoilFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CENTRIFUGALBACKWARDINCLINEDCURVED": [
+                "https://www.w3id.org/mep#CentrifugalBackward-InclinedCurvedFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CENTRIFUGALFORWARDCURVED": [
+                "https://www.w3id.org/mep#CentrfugalForward-CurvedFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CENTRIFUGALRADIAL": [
+                "https://www.w3id.org/mep#CentrifugalRadialFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PROPELLORAXIAL": [
+                "https://www.w3id.org/mep#PropellorAxialFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TUBEAXIAL": [
+                "https://www.w3id.org/mep#TubeAxialFan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VANEAXIAL": [
+                "https://www.w3id.org/mep#VaneAxialFan",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFastener": {
+        "class": [
+            "https://www.w3id.org/beo#Fastener",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "GLUE": [
+                "https://www.w3id.org/beo#Glue",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MORTAR": [
+                "https://www.w3id.org/beo#Mortar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WELD": [
+                "https://www.w3id.org/beo#Weld",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFilter": {
+        "class": [
+            "https://www.w3id.org/mep#Filter",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AIRPARTICLEFILTER": [
+                "https://www.w3id.org/mep#AirParticlefilter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMPRESSEDAIRFILTER": [
+                "https://www.w3id.org/mep#CompressedAirFilter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ODORFILTER": [
+                "https://www.w3id.org/mep#OdorFilter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OILFILTER": [
+                "https://www.w3id.org/mep#OilFilter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRAINER": [
+                "https://www.w3id.org/mep#Strainer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERFILTER": [
+                "https://www.w3id.org/mep#WaterFilter",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFireSuppressionTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#FireSuppressionTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BREECHINGINLET": [
+                "https://www.w3id.org/mep#BreechingInlet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIREHYDRANT": [
+                "https://www.w3id.org/mep#FireHydrant",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIREMONITOR": [
+                "https://www.w3id.org/mep#FireMonitor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HOSEREEL": [
+                "https://www.w3id.org/mep#FireHosereel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPRINKLER": [
+                "https://www.w3id.org/mep#Sprinkler",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowController": {
+        "class": [
+            "https://www.w3id.org/mep#FlowController",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowFitting": {
+        "class": [
+            "https://www.w3id.org/mep#FlowFitting",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowInstrument": {
+        "class": [
+            "https://www.w3id.org/mep#FlowInstrument",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AMMETER": [
+                "https://www.w3id.org/mep#Ammeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMBINED": [
+                "https://www.w3id.org/mep#CombinedFlowInstrument",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREQUENCYMETER": [
+                "https://www.w3id.org/mep#FrequencyMeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PHASEANGLEMETER": [
+                "https://www.w3id.org/mep#PhaseAngleMeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POWERFACTORMETER": [
+                "https://www.w3id.org/mep#PowerFactorMeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRESSUREGAUGE": [
+                "https://www.w3id.org/mep#PressureGauge",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THERMOMETER": [
+                "https://www.w3id.org/mep#Thermometer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VOLTMETER": [
+                "https://www.w3id.org/mep#Voltmeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VOLTMETER_PEAK": [
+                "https://www.w3id.org/mep#VoltmeterPeak",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VOLTMETER_RMS": [
+                "https://www.w3id.org/mep#VoltmeterRMS",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowMeter": {
+        "class": [
+            "https://www.w3id.org/mep#FlowMeter",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ENERGYMETER": [
+                "https://www.w3id.org/mep#EnergyMeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GASMETER": [
+                "https://www.w3id.org/mep#GasMeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OILMETER": [
+                "https://www.w3id.org/mep#OilMeter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WATERMETER": [
+                "https://www.w3id.org/mep#WaterMeter",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowMovingDevice": {
+        "class": [
+            "https://www.w3id.org/mep#FlowMovingDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowSegment": {
+        "class": [
+            "https://www.w3id.org/mep#FlowSegment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowStorageDevice": {
+        "class": [
+            "https://www.w3id.org/mep#FlowStorageDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#FlowTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFlowTreatmentDevice": {
+        "class": [
+            "https://www.w3id.org/mep#FlowTreatmentDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcFooting": {
+        "class": [
+            "https://www.w3id.org/beo#Footing",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FOOTING_BEAM": [
+                "https://www.w3id.org/beo#FootingBeam",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PAD_FOOTING": [
+                "https://www.w3id.org/beo#PadFooting",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PILE_CAP": [
+                "https://www.w3id.org/beo#PileCap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRIP_FOOTING": [
+                "https://www.w3id.org/beo#STRIPFOOTING",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcHeatExchanger": {
+        "class": [
+            "https://www.w3id.org/mep#HeatExchanger",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "PLATE": [
+                "https://www.w3id.org/mep#PlateHeatExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHELLANDTUBE": [
+                "https://www.w3id.org/mep#ShellandTubeExchanger",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TURNOUTHEATING": [
+                "https://www.w3id.org/mep#TurnoutHeating",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcHumidifier": {
+        "class": [
+            "https://www.w3id.org/mep#Humidifier",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ADIABATICAIRWASHER": [
+                "https://www.w3id.org/mep#AdiabaticAirWasher",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ADIABATICATOMIZING": [
+                "https://www.w3id.org/mep#AdiabaticAtomizingHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ADIABATICCOMPRESSEDAIRNOZZLE": [
+                "https://www.w3id.org/mep#AdiabaticCompressedAirNozzleHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ADIABATICPAN": [
+                "https://www.w3id.org/mep#AdiabaticPan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ADIABATICRIGIDMEDIA": [
+                "https://www.w3id.org/mep#AdiabaticRigidMediaHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ADIABATICULTRASONIC": [
+                "https://www.w3id.org/mep#AdiabaticUltrasonicHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ADIABATICWETTEDELEMENT": [
+                "https://www.w3id.org/mep#AdiabaticWettedElement",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ASSISTEDBUTANE": [
+                "https://www.w3id.org/mep#AssitedButaneHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ASSISTEDELECTRIC": [
+                "https://www.w3id.org/mep#AssistedElectricHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ASSISTEDNATURALGAS": [
+                "https://www.w3id.org/mep#AssistedNaturalGasHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ASSISTEDPROPANE": [
+                "https://www.w3id.org/mep#AssistedPropaneHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ASSISTEDSTEAM": [
+                "https://www.w3id.org/mep#AssistedSteamHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STEAMINJECTION": [
+                "https://www.w3id.org/mep#SteaminjectionHumidifier",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcImpactProtectionDevice": {
+        "class": [
+            "https://www.w3id.org/beo#ImpactProtectionDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BUMPER": [
+                "https://www.w3id.org/beo#Bumper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CRASHCUSHION": [
+                "https://www.w3id.org/beo#CrashCushion",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DAMPINGSYSTEM": [
+                "https://www.w3id.org/beo#DampingSystem",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FENDER": [
+                "https://www.w3id.org/beo#Fender",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcInterceptor": {
+        "class": [
+            "https://www.w3id.org/mep#Interceptor",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CYCLONIC": [
+                "https://www.w3id.org/mep#CyclonicInterceptor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GREASE": [
+                "https://www.w3id.org/mep#GreaseInterceptor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OIL": [
+                "https://www.w3id.org/mep#OilInterceptor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PETROL": [
+                "https://www.w3id.org/mep#PetrolInterceptor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcJunctionBox": {
+        "class": [
+            "https://www.w3id.org/mep#JunctionBox",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DATA": [
+                "https://www.w3id.org/mep#DataJuntionBox",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POWER": [
+                "https://www.w3id.org/mep#PowerJuntionBox",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcKerb": {
+        "class": [
+            "https://www.w3id.org/brcomp#SafetyKerb",
+            "https://www.w3id.org/beo#Kerb",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcLamp": {
+        "class": [
+            "https://www.w3id.org/mep#Lamp",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "COMPACTFLUORESCENT": [
+                "https://www.w3id.org/mep#CompactFluorescentLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLUORESCENT": [
+                "https://www.w3id.org/mep#FluorescentLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HALOGEN": [
+                "https://www.w3id.org/mep#HalogenLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HIGHPRESSUREMERCURY": [
+                "https://www.w3id.org/mep#HighPressureMercuryLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HIGHPRESSURESODIUM": [
+                "https://www.w3id.org/mep#HighPressureSodiumLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LED": [
+                "https://www.w3id.org/mep#LEDLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "METALHALIDE": [
+                "https://www.w3id.org/mep#MetalHalideLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OLED": [
+                "https://www.w3id.org/mep#OLEDLamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TUNGSTENFILAMENT": [
+                "https://www.w3id.org/mep#TungstenFilamentLamp",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcLightFixture": {
+        "class": [
+            "https://www.w3id.org/mep#LightFixture",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DIRECTIONSOURCE": [
+                "https://www.w3id.org/mep#DirectionSourceLightFixture",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POINTSOURCE": [
+                "https://www.w3id.org/mep#PointSourceLightFixture",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SECURITYLIGHTING": [
+                "https://www.w3id.org/mep#SecurityLightning",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcLiquidTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#LiquidTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "HOSEREEL": [
+                "https://www.w3id.org/mep#Hosereel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LOADINGARM": [
+                "https://www.w3id.org/mep#LoadingArm",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcMarineFacility": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcMarinePart": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcMechanicalFastener": {
+        "class": [
+            "https://www.w3id.org/beo#MechanicalFastener",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ANCHORBOLT": [
+                "https://www.w3id.org/beo#AnchorBolt",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BOLT": [
+                "https://www.w3id.org/beo#Bolt",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CHAIN": [
+                "https://www.w3id.org/beo#Chain",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COUPLER": [
+                "https://www.w3id.org/beo#Coupler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DOWEL": [
+                "https://www.w3id.org/beo#Dowel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "NAIL": [
+                "https://www.w3id.org/beo#Nail",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "NAILPLATE": [
+                "https://www.w3id.org/beo#NailPlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAILFASTENING": [
+                "https://www.w3id.org/beo#RailFastening",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAILJOINT": [
+                "https://www.w3id.org/beo#RailJoint",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RIVET": [
+                "https://www.w3id.org/beo#Rivet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROPE": [
+                "https://www.w3id.org/beo#Rope",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SCREW": [
+                "https://www.w3id.org/beo#Screw",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHEARCONNECTOR": [
+                "https://www.w3id.org/beo#ShearConnector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STAPLE": [
+                "https://www.w3id.org/beo#Staple",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STUDSHEARCONNECTOR": [
+                "https://www.w3id.org/beo#StudShearConnector",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "NominalDiameter": "https://www.w3id.org/beo#NominalDiameter",
+            "NominalLength": "https://www.w3id.org/beo#NominalLength"
+        },
+        "inv_attrs": {}
+    },
+    "IfcMedicalDevice": {
+        "class": [
+            "https://www.w3id.org/mep#MedicalDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AIRSTATION": [
+                "https://www.w3id.org/mep#AirStation",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FEEDAIRUNIT": [
+                "https://www.w3id.org/mep#Feed-AirUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OXYGENGENERATOR": [
+                "https://www.w3id.org/mep#OxygenGenerator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OXYGENPLANT": [
+                "https://www.w3id.org/mep#OxygenPlant",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VACUUMSTATION": [
+                "https://www.w3id.org/mep#VacuumStation",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcMember": {
+        "class": [
+            "https://www.w3id.org/beo#Member",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ARCH_SEGMENT": [
+                "https://www.w3id.org/beo#ArchSegement",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BRACE": [
+                "https://www.w3id.org/beo#Brace",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CHORD": [
+                "https://www.w3id.org/beo#Chord",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COLLAR": [
+                "https://www.w3id.org/beo#Collar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MULLION": [
+                "https://www.w3id.org/beo#Mullion",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PLATE": [
+                "https://www.w3id.org/beo#PlateMember",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POST": [
+                "https://www.w3id.org/beo#Post",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PURLIN": [
+                "https://www.w3id.org/beo#Purlin",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAFTER": [
+                "https://www.w3id.org/beo#Rafter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STAY_CABLE": [
+                "https://www.w3id.org/brcomp#Cable",
+                "https://www.w3id.org/beo#StayCable",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STIFFENING_RIB": [
+                "https://www.w3id.org/beo#StiffeningRib",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRINGER": [
+                "https://www.w3id.org/beo#Stringer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRUCTURALCABLE": [
+                "https://www.w3id.org/beo#StructuralCable",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRUT": [
+                "https://www.w3id.org/beo#Strut",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STUD": [
+                "https://www.w3id.org/beo#WallStud",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUSPENDER": [
+                "https://www.w3id.org/beo#Suspender",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUSPENSION_CABLE": [
+                "https://www.w3id.org/brcomp#Cable",
+                "https://www.w3id.org/beo#SuspensionCable",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TIEBAR": [
+                "https://www.w3id.org/beo#Tiebar",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcMobileTelecommunicationsAppliance": {
+        "class": [
+            "https://www.w3id.org/mep#MobileTelecommunicationsAppliance",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ACCESSPOINT": [
+                "https://www.w3id.org/mep#Accesspoint",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BASEBANDUNIT": [
+                "https://www.w3id.org/mep#BasebandUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BASETRANSCEIVERSTATION": [
+                "https://www.w3id.org/mep#BaseTranscieverStation",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "E_UTRAN_NODE_B": [
+                "https://www.w3id.org/mep#E-UtranNodeB",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GATEWAY_GPRS_SUPPORT_NODE": [
+                "https://www.w3id.org/mep#GatewayGPRSNodeSupport",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MASTERUNIT": [
+                "https://www.w3id.org/mep#MasterUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOBILESWITCHINGCENTER": [
+                "https://www.w3id.org/mep#MobileSwitchingCenter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MSCSERVER": [
+                "https://www.w3id.org/mep#MSCServer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PACKETCONTROLUNIT": [
+                "https://www.w3id.org/mep#PacketControlUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REMOTERADIOUNIT": [
+                "https://www.w3id.org/mep#RemoteRadioUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REMOTEUNIT": [
+                "https://www.w3id.org/mep#RemoteUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SERVICE_GPRS_SUPPORT_NODE": [
+                "https://www.w3id.org/mep#ServiceGPRSSupportNode",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUBSCRIBERSERVER": [
+                "https://www.w3id.org/mep#SubscriberServer",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcMooringDevice": {
+        "class": [
+            "https://www.w3id.org/beo#MooringDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BOLLARD": [
+                "https://www.w3id.org/beo#Bollard",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LINETENSIONER": [
+                "https://www.w3id.org/beo#LineTensioner",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MAGNETICDEVICE": [
+                "https://www.w3id.org/beo#MageneticMooringDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOORINGHOOKS": [
+                "https://www.w3id.org/beo#MooringHooks",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VACUUMDEVICE": [
+                "https://www.w3id.org/beo#VacuumMooringDevice",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcMotorConnection": {
+        "class": [
+            "https://www.w3id.org/mep#MotorConnection",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BELTDRIVE": [
+                "https://www.w3id.org/mep#BeltDrive",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COUPLING": [
+                "https://www.w3id.org/mep#Coupling",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIRECTDRIVE": [
+                "https://www.w3id.org/mep#DirectDrive",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcNavigationElement": {
+        "class": [
+            "https://www.w3id.org/beo#NavigationElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BEACON": [
+                "https://www.w3id.org/beo#Beacon",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BUOY": [
+                "https://www.w3id.org/beo#Buoy",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcOutlet": {
+        "class": [
+            "https://www.w3id.org/mep#Outlet",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AUDIOVISUALOUTLET": [
+                "https://www.w3id.org/mep#AudiovisualOutlet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMMUNICATIONSOUTLET": [
+                "https://www.w3id.org/mep#CommunicationOutlet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DATAOUTLET": [
+                "https://www.w3id.org/mep#DataOutlet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "POWEROUTLET": [
+                "https://www.w3id.org/mep#PowerOutlet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TELEPHONEOUTLET": [
+                "https://www.w3id.org/mep#TelephoneOutlet",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcPavement": {
+        "class": [
+            "https://www.w3id.org/beo#Pavement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FLEXIBLE": [
+                "https://www.w3id.org/beo#FlexiblePavement",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RIGID": [
+                "https://www.w3id.org/beo#RigidPavement",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcPile": {
+        "class": [
+            "https://www.w3id.org/beo#Pile",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BORED": [
+                "https://www.w3id.org/beo#BorePile",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COHESION": [
+                "https://www.w3id.org/beo#CohesionPile",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DRIVEN": [
+                "https://www.w3id.org/beo#DrivenPile",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FRICTION": [
+                "https://www.w3id.org/beo#FrictionPile",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JETGROUTING": [
+                "https://www.w3id.org/beo#JetGroutingPile",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUPPORT": [
+                "https://www.w3id.org/beo#SupportPile",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcPipeFitting": {
+        "class": [
+            "https://www.w3id.org/mep#PipeFitting",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BEND": [
+                "https://www.w3id.org/mep#PipeBend",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONNECTOR": [
+                "https://www.w3id.org/mep#PipeConector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ENTRY": [
+                "https://www.w3id.org/mep#PipeEntry",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EXIT": [
+                "https://www.w3id.org/mep#PipeExit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JUNCTION": [
+                "https://www.w3id.org/mep#PipeJunction",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OBSTRUCTION": [
+                "https://www.w3id.org/mep#PipeObstruction",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRANSITION": [
+                "https://www.w3id.org/mep#PipeTransition",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcPipeSegment": {
+        "class": [
+            "https://www.w3id.org/mep#PipeSegment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CULVERT": [
+                "https://www.w3id.org/mep#Culvert",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLEXIBLESEGMENT": [
+                "https://www.w3id.org/mep#FlexiblePipeSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GUTTER": [
+                "https://www.w3id.org/mep#Gutter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RIGIDSEGMENT": [
+                "https://www.w3id.org/mep#RigidPipeSegment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPOOL": [
+                "https://www.w3id.org/mep#Spool",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcPlate": {
+        "class": [
+            "https://www.w3id.org/beo#Plate",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BASE_PLATE": [
+                "https://www.w3id.org/beo#BasePlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COVER_PLATE": [
+                "https://www.w3id.org/beo#CoverPlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CURTAIN_PANEL": [
+                "https://www.w3id.org/beo#CurtainPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLANGE_PLATE": [
+                "https://www.w3id.org/beo#FlangePlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GUSSET_PLATE": [
+                "https://www.w3id.org/beo#GussetPlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHEET": [
+                "https://www.w3id.org/beo#Sheet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPLICE_PLATE": [
+                "https://www.w3id.org/beo#SplicePlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STIFFENER_PLATE": [
+                "https://www.w3id.org/beo#StiffenerPlate",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WEB_PLATE": [
+                "https://www.w3id.org/beo#WebPlate",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcProtectiveDevice": {
+        "class": [
+            "https://www.w3id.org/mep#ProtectiveDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ANTI_ARCING_DEVICE": [
+                "https://www.w3id.org/mep#Anti-ArcingDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CIRCUITBREAKER": [
+                "https://www.w3id.org/mep#CircuitBreaker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EARTHINGSWITCH": [
+                "https://www.w3id.org/mep#EarthingSwitch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EARTHLEAKAGECIRCUITBREAKER": [
+                "https://www.w3id.org/mep#EarthLeakerCircuitBreaker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FUSEDISCONNECTOR": [
+                "https://www.w3id.org/mep#FuseDisconnector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RESIDUALCURRENTCIRCUITBREAKER": [
+                "https://www.w3id.org/mep#ResidualCurrentCircuitBreaker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RESIDUALCURRENTSWITCH": [
+                "https://www.w3id.org/mep#ResidualCurrentSwitch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPARKGAP": [
+                "https://www.w3id.org/mep#SparkGap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VARISTOR": [
+                "https://www.w3id.org/mep#Varistor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VOLTAGELIMITER": [
+                "https://www.w3id.org/mep#VoltageLimiter",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcProtectiveDeviceTrippingUnit": {
+        "class": [
+            "https://www.w3id.org/mep#ProtectiveDeviceTrippingUnit",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ELECTROMAGNETIC": [
+                "https://www.w3id.org/mep#ElectromagneticTrippingUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ELECTRONIC": [
+                "https://www.w3id.org/mep#ElectronicTrippingUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RESIDUALCURRENT": [
+                "https://www.w3id.org/mep#ResidualCurrentTrippingUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THERMAL": [
+                "https://www.w3id.org/mep#ThermalTrippingUnit",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcPump": {
+        "class": [
+            "https://www.w3id.org/mep#Pump",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CIRCULATOR": [
+                "https://www.w3id.org/mep#CirculatorPump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ENDSUCTION": [
+                "https://www.w3id.org/mep#EndSuctionPump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPLITCASE": [
+                "https://www.w3id.org/mep#SplitCasePump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUBMERSIBLEPUMP": [
+                "https://www.w3id.org/mep#SubmersiblePump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SUMPPUMP": [
+                "https://www.w3id.org/mep#SumpPump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VERTICALINLINE": [
+                "https://www.w3id.org/mep#VerticalInlinePump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VERTICALTURBINE": [
+                "https://www.w3id.org/mep#VerticalTurbinePump",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcRail": {
+        "class": [
+            "https://www.w3id.org/beo#Rail",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BLADE": [
+                "https://www.w3id.org/beo#Blade",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CHECKRAIL": [
+                "https://www.w3id.org/beo#CheckRail",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GUARDRAIL": [
+                "https://www.w3id.org/beo#GuardRail",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RACKRAIL": [
+                "https://www.w3id.org/beo#RackRail",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STOCKRAIL": [
+                "https://www.w3id.org/beo#StockRail",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcRailing": {
+        "class": [
+            "https://www.w3id.org/beo#Railing",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BALUSTRADE": [
+                "https://www.w3id.org/beo#Balustrade",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FENCE": [
+                "https://www.w3id.org/beo#Fence",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GUARDRAIL": [
+                "https://www.w3id.org/beo#Guardrail",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HANDRAIL": [
+                "https://www.w3id.org/beo#Handrail",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcRailway": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcRailwayPart": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcRamp": {
+        "class": [
+            "https://www.w3id.org/beo#Ramp",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "HALF_TURN_RAMP": [
+                "https://www.w3id.org/beo#HALFTURNRAMP",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "QUARTER_TURN_RAMP": [
+                "https://www.w3id.org/beo#QuarterTurnRamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPIRAL_RAMP": [
+                "https://www.w3id.org/beo#SpiralRamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRAIGHT_RUN_RAMP": [
+                "https://www.w3id.org/beo#StraightRunRamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWO_QUARTER_TURN_RAMP": [
+                "https://www.w3id.org/beo#TwoQuarterTurnRamp",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWO_STRAIGHT_RUN_RAMP": [
+                "https://www.w3id.org/beo#TwoStairRunRamp",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcRampFlight": {
+        "class": [
+            "https://www.w3id.org/beo#RampFlight",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "SPIRAL": [
+                "https://www.w3id.org/beo#SpiralRampFlight",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRAIGHT": [
+                "https://www.w3id.org/beo#StraightRampFlight",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcReinforcedSoil": {
+        "class": [
+            "https://www.w3id.org/beo#ReinforcedSoil",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "DYNAMICALLYCOMPACTED": [
+                "https://www.w3id.org/beo#DynamicallyCompactedSoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GROUTED": [
+                "https://www.w3id.org/beo#GroutedSoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REPLACED": [
+                "https://www.w3id.org/beo#ReplacedSoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROLLERCOMPACTED": [
+                "https://www.w3id.org/beo#RollerCompactedSoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SURCHARGEPRELOADED": [
+                "https://www.w3id.org/beo#SurchargePreloadedSoil",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VERTICALLYDRAINED": [
+                "https://www.w3id.org/beo#VerticallyDrainedSoil",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcReinforcingBar": {
+        "class": [
+            "https://www.w3id.org/beo#ReinforcingBar",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ANCHORING": [
+                "https://www.w3id.org/beo#AnchoringBar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EDGE": [
+                "https://www.w3id.org/beo#EdgeBar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LIGATURE": [
+                "https://www.w3id.org/beo#Ligature",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MAIN": [
+                "https://www.w3id.org/beo#MainBar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PUNCHING": [
+                "https://www.w3id.org/beo#PunchingBar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RING": [
+                "https://www.w3id.org/beo#ReinforcementRing",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHEAR": [
+                "https://www.w3id.org/beo#ShearBar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPACEBAR": [
+                "https://www.w3id.org/beo#SpaceBar",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STUD": [
+                "https://www.w3id.org/beo#Stud",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "SteelGrade": "https://www.w3id.org/beo#SteelGrade",
+            "NominalDiameter": "https://www.w3id.org/beo#NominalDiameter",
+            "CrossSectionArea": "https://www.w3id.org/beo#CrossSectionArea",
+            "BarLength": "https://www.w3id.org/beo#BarLength",
+            "BarSurface": "https://www.w3id.org/beo#BarSurface"
+        },
+        "inv_attrs": {}
+    },
+    "IfcReinforcingMesh": {
+        "class": [
+            "https://www.w3id.org/beo#ReinforcingMesh",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "SteelGrade": "https://www.w3id.org/beo#SteelGrade",
+            "MeshLength": "https://www.w3id.org/beo#MeshLength",
+            "MeshWidth": "https://www.w3id.org/beo#MeshWidth",
+            "LongitudinalBarNominalDiameter": "https://www.w3id.org/beo#LongitudinalBarNominalDiameter",
+            "TransverseBarNominalDiameter": "https://www.w3id.org/beo#TransverseBarNominalDiameter",
+            "LongitudinalBarCrossSectionArea": "https://www.w3id.org/beo#LongitudinalBarCrossSectionArea",
+            "TransverseBarCrossSectionArea": "https://www.w3id.org/beo#TransverseBarCrossSectionArea",
+            "LongitudinalBarSpacing": "https://www.w3id.org/beo#LongitudinalBarSpacing",
+            "TransverseBarSpacing": "https://www.w3id.org/beo#TransverseBarSpacing"
+        },
+        "inv_attrs": {}
+    },
+    "IfcRoad": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcRoadPart": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcRoof": {
+        "class": [
+            "https://www.w3id.org/beo#Roof",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BARREL_ROOF": [
+                "https://www.w3id.org/beo#BarrelRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BUTTERFLY_ROOF": [
+                "https://www.w3id.org/beo#ButterflyRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DOME_ROOF": [
+                "https://www.w3id.org/beo#DomeRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLAT_ROOF": [
+                "https://www.w3id.org/beo#FlatRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREEFORM": [
+                "https://www.w3id.org/beo#FreeFormRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GABLE_ROOF": [
+                "https://www.w3id.org/beo#GableRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GAMBREL_ROOF": [
+                "https://www.w3id.org/beo#GambrelRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HIPPED_GABLE_ROOF": [
+                "https://www.w3id.org/beo#HippedGableRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HIP_ROOF": [
+                "https://www.w3id.org/beo#HipRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MANSARD_ROOF": [
+                "https://www.w3id.org/beo#MansardRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PAVILION_ROOF": [
+                "https://www.w3id.org/beo#PavilionRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAINBOW_ROOF": [
+                "https://www.w3id.org/beo#RainbowRoof",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHED_ROOF": [
+                "https://www.w3id.org/beo#ShedRoof",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSanitaryTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#SanitaryTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BATH": [
+                "https://www.w3id.org/mep#Bath",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BIDET": [
+                "https://www.w3id.org/mep#Bidet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CISTERN": [
+                "https://www.w3id.org/mep#Cistern",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SANITARYFOUNTAIN": [
+                "https://www.w3id.org/mep#SantirayFountain",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHOWER": [
+                "https://www.w3id.org/mep#Shower",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SINK": [
+                "https://www.w3id.org/mep#Sink",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TOILETPAN": [
+                "https://www.w3id.org/mep#ToiletPan",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "URINAL": [
+                "https://www.w3id.org/mep#Urinal",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WASHHANDBASIN": [
+                "https://www.w3id.org/mep#WashHandBasin",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSensor": {
+        "class": [
+            "https://www.w3id.org/mep#Sensor",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CO2SENSOR": [
+                "https://www.w3id.org/mep#CO2Sensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONDUCTANCESENSOR": [
+                "https://www.w3id.org/mep#ConductanceSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONTACTSENSOR": [
+                "https://www.w3id.org/mep#ContactSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COSENSOR": [
+                "https://www.w3id.org/mep#COSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EARTHQUAKESENSOR": [
+                "https://www.w3id.org/mep#EarthquakeSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIRESENSOR": [
+                "https://www.w3id.org/mep#FireSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLOWSENSOR": [
+                "https://www.w3id.org/mep#FlowSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FOREIGNOBJECTDETECTIONSENSOR": [
+                "https://www.w3id.org/mep#ForeignObjectDetectionSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FROSTSENSOR": [
+                "https://www.w3id.org/mep#FrostSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GASSENSOR": [
+                "https://www.w3id.org/mep#GasSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HEATSENSOR": [
+                "https://www.w3id.org/mep#HeatSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HUMIDITYSENSOR": [
+                "https://www.w3id.org/mep#HumiditySensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "IDENTIFIERSENSOR": [
+                "https://www.w3id.org/mep#IndentifierSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "IONCONCENTRATIONSENSOR": [
+                "https://www.w3id.org/mep#IonConcentrationSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LEVELSENSOR": [
+                "https://www.w3id.org/mep#LevelSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LIGHTSENSOR": [
+                "https://www.w3id.org/mep#LightSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOVEMENTSENSOR": [
+                "https://www.w3id.org/mep#MovementSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OBSTACLESENSOR": [
+                "https://www.w3id.org/mep#ObstacleSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PHSENSOR": [
+                "https://www.w3id.org/mep#PHSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRESSURESENSOR": [
+                "https://www.w3id.org/mep#PressureSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RADIATIONSENSOR": [
+                "https://www.w3id.org/mep#RadiationSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RADIOACTIVITYSENSOR": [
+                "https://www.w3id.org/mep#RadiactivitySensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAINSENSOR": [
+                "https://www.w3id.org/mep#RainSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SMOKESENSOR": [
+                "https://www.w3id.org/mep#SmokeSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SNOWDEPTHSENSOR": [
+                "https://www.w3id.org/mep#SnowDepthSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SOUNDSENSOR": [
+                "https://www.w3id.org/mep#SoundSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TEMPERATURESENSOR": [
+                "https://www.w3id.org/mep#TemperatureSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRAINSENSOR": [
+                "https://www.w3id.org/mep#TrainSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TURNOUTCLOSURESENSOR": [
+                "https://www.w3id.org/mep#TurnoutClosureSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WHEELSENSOR": [
+                "https://www.w3id.org/mep#WheelSensor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WINDSENSOR": [
+                "https://www.w3id.org/mep#WindSensor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcShadingDevice": {
+        "class": [
+            "https://www.w3id.org/beo#ShadingDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AWNING": [
+                "https://www.w3id.org/beo#Awning",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "JALOUSIE": [
+                "https://www.w3id.org/beo#Jalouise",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHUTTER": [
+                "https://www.w3id.org/beo#Shutter",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSign": {
+        "class": [
+            "https://www.w3id.org/beo#Sign",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "MARKER": [
+                "https://www.w3id.org/beo#Marker",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MIRROR": [
+                "https://www.w3id.org/beo#Mirror",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PICTORAL": [
+                "https://www.w3id.org/beo#Pictoral",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSignal": {
+        "class": [
+            "https://www.w3id.org/mep#Signal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AUDIO": [
+                "https://www.w3id.org/mep#AudioSignalingDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MIXED": [
+                "https://www.w3id.org/mep#MixedSignalingDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VISUAL": [
+                "https://www.w3id.org/mep#VisualSignalingDevice",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSite": {
+        "class": [
+            "https://www.w3id.org/bot#Zone",
+            "https://www.w3id.org/bot#Site"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcSlab": {
+        "class": [
+            "https://www.w3id.org/beo#Slab",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "APPROACH_SLAB": [
+                "https://www.w3id.org/beo#ApproachSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BASESLAB": [
+                "https://www.w3id.org/beo#BaseSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLOOR": [
+                "https://www.w3id.org/beo#FloorSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LANDING": [
+                "https://www.w3id.org/beo#LandingSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PAVING": [
+                "https://www.w3id.org/beo#PavingSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROOF": [
+                "https://www.w3id.org/beo#RoofSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SIDEWALK": [
+                "https://www.w3id.org/beo#SidewalkSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRACKSLAB": [
+                "https://www.w3id.org/beo#TrackSlab",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WEARING": [
+                "https://www.w3id.org/beo#WearingSlab",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSolarDevice": {
+        "class": [
+            "https://www.w3id.org/mep#SolarDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "SOLARCOLLECTOR": [
+                "https://www.w3id.org/mep#SolarCollector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SOLARPANEL": [
+                "https://www.w3id.org/mep#SolarPanel",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSpace": {
+        "class": [
+            "https://www.w3id.org/bot#Zone",
+            "https://www.w3id.org/bot#Space"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcSpaceHeater": {
+        "class": [
+            "https://www.w3id.org/mep#SpaceHeater",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CONVECTOR": [
+                "https://www.w3id.org/mep#Convector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RADIATOR": [
+                "https://www.w3id.org/mep#Radiator",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSpatialZone": {
+        "class": [
+            "https://www.w3id.org/bot#Zone"
+        ],
+        "enum": {},
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description"
+        },
+        "inv_attrs": {
+            "ContainsElements": "https://www.w3id.org/bot#ContainsElement"
+        }
+    },
+    "IfcStackTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#StackTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BIRDCAGE": [
+                "https://www.w3id.org/mep#BirdCage",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COWL": [
+                "https://www.w3id.org/mep#Cowl",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RAINWATERHOPPER": [
+                "https://www.w3id.org/mep#RainwaterHopper",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcStair": {
+        "class": [
+            "https://www.w3id.org/beo#Stair",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CURVED_RUN_STAIR": [
+                "https://www.w3id.org/beo#CurvedRunStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DOUBLE_RETURN_STAIR": [
+                "https://www.w3id.org/beo#DoubleReturnStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HALF_TURN_STAIR": [
+                "https://www.w3id.org/beo#HalfTurnStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HALF_WINDING_STAIR": [
+                "https://www.w3id.org/beo#HalfWindingStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LADDER": [
+                "https://www.w3id.org/beo#Ladder",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "QUARTER_TURN_STAIR": [
+                "https://www.w3id.org/beo#QuarterTurnStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "QUARTER_WINDING_STAIR": [
+                "https://www.w3id.org/beo#QuarterWindingStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPIRAL_STAIR": [
+                "https://www.w3id.org/beo#SpiralStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRAIGHT_RUN_STAIR": [
+                "https://www.w3id.org/beo#StraightRunStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THREE_QUARTER_TURN_STAIR": [
+                "https://www.w3id.org/beo#ThreeQuarterTurnStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THREE_QUARTER_WINDING_STAIR": [
+                "https://www.w3id.org/beo#ThreeQuarterWindingStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWO_CURVED_RUN_STAIR": [
+                "https://www.w3id.org/beo#TwoCurvedRunStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWO_QUARTER_TURN_STAIR": [
+                "https://www.w3id.org/beo#TwoQuarterTurnStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWO_QUARTER_WINDING_STAIR": [
+                "https://www.w3id.org/beo#TwoQuarterWindingStair",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TWO_STRAIGHT_RUN_STAIR": [
+                "https://www.w3id.org/beo#TwoStraightRunStair",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcStairFlight": {
+        "class": [
+            "https://www.w3id.org/beo#StairFlight",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CURVED": [
+                "https://www.w3id.org/beo#CurvedStairFlight",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREEFORM": [
+                "https://www.w3id.org/beo#FreeFormStairFlight",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPIRAL": [
+                "https://www.w3id.org/beo#SpiralStairFlight",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRAIGHT": [
+                "https://www.w3id.org/beo#StraightStairFlight",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WINDER": [
+                "https://www.w3id.org/beo#WinderStairFlight",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "NumberOfRisers": "https://www.w3id.org/beo#NumberOfRisers",
+            "NumberOfTreads": "https://www.w3id.org/beo#NumberOfTreads",
+            "RiserHeight": "https://www.w3id.org/beo#RiserHeight",
+            "TreadLength": "https://www.w3id.org/beo#TreadLength"
+        },
+        "inv_attrs": {}
+    },
+    "IfcSwitchingDevice": {
+        "class": [
+            "https://www.w3id.org/mep#SwitchingDevice",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CONTACTOR": [
+                "https://www.w3id.org/mep#Contactor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIMMERSWITCH": [
+                "https://www.w3id.org/mep#DimmerSwitch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EMERGENCYSTOP": [
+                "https://www.w3id.org/mep#EmergencyStop",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "KEYPAD": [
+                "https://www.w3id.org/mep#Keypad",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOMENTARYSWITCH": [
+                "https://www.w3id.org/mep#MomentarySwitch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RELAY": [
+                "https://www.w3id.org/mep#Relay",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SELECTORSWITCH": [
+                "https://www.w3id.org/mep#SelectorSwitch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STARTER": [
+                "https://www.w3id.org/mep#Starter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "START_AND_STOP_EQUIPMENT": [
+                "https://www.w3id.org/mep#StartandStopSwitch",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SWITCHDISCONNECTOR": [
+                "https://www.w3id.org/mep#SwitchDisconnector",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TOGGLESWITCH": [
+                "https://www.w3id.org/mep#ToggleSwitch",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTank": {
+        "class": [
+            "https://www.w3id.org/mep#Tank",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BASIN": [
+                "https://www.w3id.org/mep#Basin",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BREAKPRESSURE": [
+                "https://www.w3id.org/mep#BreakPressureTank",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "EXPANSION": [
+                "https://www.w3id.org/mep#ExpansionTank",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FEEDANDEXPANSION": [
+                "https://www.w3id.org/mep#FeedandExpansionTank",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "OILRETENTIONTRAY": [
+                "https://www.w3id.org/mep#OilRetentionTray",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRESSUREVESSEL": [
+                "https://www.w3id.org/mep#PressureVessel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STORAGE": [
+                "https://www.w3id.org/mep#StorageTank",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VESSEL": [
+                "https://www.w3id.org/mep#Vessel",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTendon": {
+        "class": [
+            "https://www.w3id.org/brcomp#Tendon",
+            "https://www.w3id.org/beo#Tendon",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BAR": [
+                "https://www.w3id.org/beo#BarTendon",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COATED": [
+                "https://www.w3id.org/beo#CoatedTendon",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STRAND": [
+                "https://www.w3id.org/beo#Strand",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WIRE": [
+                "https://www.w3id.org/beo#Wire",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "SteelGrade": "https://www.w3id.org/beo#SteelGrade",
+            "NominalDiameter": "https://www.w3id.org/beo#NominalDiameter",
+            "CrossSectionArea": "https://www.w3id.org/beo#CrossSectionArea",
+            "TensionForce": "https://www.w3id.org/beo#TensionForce",
+            "PreStress": "https://www.w3id.org/beo#PreStress",
+            "FrictionCoefficient": "https://www.w3id.org/beo#FrictionCoefficient",
+            "AnchorageSlip": "https://www.w3id.org/beo#AnchorageSlip",
+            "MinCurvatureRadius": "https://www.w3id.org/beo#MinCurvatureRadius"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTendonAnchor": {
+        "class": [
+            "https://www.w3id.org/brcomp#TendonAnchoringDevice",
+            "https://www.w3id.org/beo#TendonAnchor",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "COUPLER": [
+                "https://www.w3id.org/brcomp#TendonAnchoringDevice",
+                "https://www.w3id.org/beo#TendonCoupler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FIXED_END": [
+                "https://www.w3id.org/brcomp#TendonAnchoringDevice",
+                "https://www.w3id.org/beo#FixedEndAnchor",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TENSIONING_END": [
+                "https://www.w3id.org/brcomp#TendonAnchoringDevice",
+                "https://www.w3id.org/beo#TensioningEndAnchor",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "SteelGrade": "https://www.w3id.org/beo#SteelGrade"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTendonConduit": {
+        "class": [
+            "https://www.w3id.org/beo#TendonConduit",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "COUPLER": [
+                "https://www.w3id.org/beo#TendonConduitCoupler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIABOLO": [
+                "https://www.w3id.org/beo#Diabolo",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DUCT": [
+                "https://www.w3id.org/beo#TendonDuct",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GROUTING_DUCT": [
+                "https://www.w3id.org/beo#GroutingDuct",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRUMPET": [
+                "https://www.w3id.org/beo#Trumpet",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "SteelGrade": "https://www.w3id.org/beo#SteelGrade"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTrackElement": {
+        "class": [
+            "https://www.w3id.org/beo#TrackElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BLOCKINGDEVICE": [
+                "https://www.w3id.org/beo#BlockingDevice",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DERAILER": [
+                "https://www.w3id.org/beo#Derailer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FROG": [
+                "https://www.w3id.org/beo#Frog",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HALF_SET_OF_BLADES": [
+                "https://www.w3id.org/beo#HalfSetofBlades",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SLEEPER": [
+                "https://www.w3id.org/beo#Sleeper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPEEDREGULATOR": [
+                "https://www.w3id.org/beo#SpeedRegulator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "TRACKENDOFALIGNMENT": [
+                "https://www.w3id.org/beo#TrackEndofAlignment",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VEHICLESTOP": [
+                "https://www.w3id.org/beo#VehicleStop",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTransformer": {
+        "class": [
+            "https://www.w3id.org/mep#Transformer",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CHOPPER": [
+                "https://www.w3id.org/mep#Chopper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMBINED": [
+                "https://www.w3id.org/mep#CombinedTransformer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CURRENT": [
+                "https://www.w3id.org/mep#CurrentTransformer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FREQUENCY": [
+                "https://www.w3id.org/mep#FrequencyTransformer",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INVERTER": [
+                "https://www.w3id.org/mep#Inverter",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RECTIFIER": [
+                "https://www.w3id.org/mep#Rectifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VOLTAGE": [
+                "https://www.w3id.org/mep#VoltageTransformer",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTransportElement": {
+        "class": [
+            "https://www.w3id.org/beo#TransportElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "CRANEWAY": [
+                "https://www.w3id.org/beo#CraneWaySystem",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ELEVATOR": [
+                "https://www.w3id.org/beo#Elevator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ESCALATOR": [
+                "https://www.w3id.org/beo#Escalator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HAULINGGEAR": [
+                "https://www.w3id.org/beo#HaulingGear",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "LIFTINGGEAR": [
+                "https://www.w3id.org/beo#LiftingGear",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOVINGWALKWAY": [
+                "https://www.w3id.org/beo#MovingWalkway",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcTubeBundle": {
+        "class": [
+            "https://www.w3id.org/mep#TubeBundle",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FINNED": [
+                "https://www.w3id.org/mep#FinnedTubeBundle",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcUnitaryControlElement": {
+        "class": [
+            "https://www.w3id.org/mep#UnitaryControlElement",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ALARMPANEL": [
+                "https://www.w3id.org/mep#AlarmPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BASESTATIONCONTROLLER": [
+                "https://www.w3id.org/mep#BaseStationController",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMBINED": [
+                "https://www.w3id.org/mep#CombinedControlElement",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CONTROLPANEL": [
+                "https://www.w3id.org/mep#ControlPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GASDETECTIONPANEL": [
+                "https://www.w3id.org/mep#GasDetectionPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "HUMIDISTAT": [
+                "https://www.w3id.org/mep#Humidistat",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "INDICATORPANEL": [
+                "https://www.w3id.org/mep#IndicatorPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MIMICPANEL": [
+                "https://www.w3id.org/mep#MimicPanel",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "THERMOSTAT": [
+                "https://www.w3id.org/mep#Thermostat",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WEATHERSTATION": [
+                "https://www.w3id.org/mep#WeatherStation",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcUnitaryEquipment": {
+        "class": [
+            "https://www.w3id.org/mep#UnitaryEquipment",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AIRCONDITIONINGUNIT": [
+                "https://www.w3id.org/mep#AirConditioningUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "AIRHANDLER": [
+                "https://www.w3id.org/mep#AirHandler",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DEHUMIDIFIER": [
+                "https://www.w3id.org/mep#Dehumidifier",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROOFTOPUNIT": [
+                "https://www.w3id.org/mep#RooftopUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPLITSYSTEM": [
+                "https://www.w3id.org/mep#SplitSystem",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcValve": {
+        "class": [
+            "https://www.w3id.org/mep#Valve",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AIRRELEASE": [
+                "https://www.w3id.org/mep#AirReleaseValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ANTIVACUUM": [
+                "https://www.w3id.org/mep#AntivacuumValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CHANGEOVER": [
+                "https://www.w3id.org/mep#ChangeoverValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "CHECK": [
+                "https://www.w3id.org/mep#CheckValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMMISSIONING": [
+                "https://www.w3id.org/mep#CommissioningValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DIVERTING": [
+                "https://www.w3id.org/mep#DivertingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DOUBLECHECK": [
+                "https://www.w3id.org/mep#DoubleCheckValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DOUBLEREGULATING": [
+                "https://www.w3id.org/mep#DoubleRegulatingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "DRAWOFFCOCK": [
+                "https://www.w3id.org/mep#Draw-OffCock",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FAUCET": [
+                "https://www.w3id.org/mep#Faucet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLUSHING": [
+                "https://www.w3id.org/mep#FlushingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GASCOCK": [
+                "https://www.w3id.org/mep#GasCock",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GASTAP": [
+                "https://www.w3id.org/mep#GasTap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ISOLATING": [
+                "https://www.w3id.org/mep#IsolatingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MIXING": [
+                "https://www.w3id.org/mep#MixingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRESSUREREDUCING": [
+                "https://www.w3id.org/mep#PressureReducingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PRESSURERELIEF": [
+                "https://www.w3id.org/mep#PressureReliefValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "REGULATING": [
+                "https://www.w3id.org/mep#RegulatingValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SAFETYCUTOFF": [
+                "https://www.w3id.org/mep#SecurityCut-offValve",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STEAMTRAP": [
+                "https://www.w3id.org/mep#SteamTrap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "STOPCOCK": [
+                "https://www.w3id.org/mep#StopCock",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcVibrationDamper": {
+        "class": [
+            "https://www.w3id.org/beo#VibrationDamper",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "AXIAL_YIELD": [
+                "https://www.w3id.org/beo#Axial-yieldDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "BENDING_YIELD": [
+                "https://www.w3id.org/beo#Bending-yieldDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FRICTION": [
+                "https://www.w3id.org/beo#FrictionDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RUBBER": [
+                "https://www.w3id.org/beo#RubberDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHEAR_YIELD": [
+                "https://www.w3id.org/beo#Shear-yieldDamper",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "VISCOUS": [
+                "https://www.w3id.org/beo#ViscousDamper",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcVibrationIsolator": {
+        "class": [
+            "https://www.w3id.org/beo#VibrationIsolator",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "BASE": [
+                "https://www.w3id.org/beo#BaseIsolator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "COMPRESSION": [
+                "https://www.w3id.org/beo#CompressionIsolator",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SPRING": [
+                "https://www.w3id.org/beo#SpringIsolator",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcWall": {
+        "class": [
+            "https://www.w3id.org/beo#Wall",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "ELEMENTEDWALL": [
+                "https://www.w3id.org/beo#ElementedWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "MOVABLE": [
+                "https://www.w3id.org/beo#MovableWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PARAPET": [
+                "https://www.w3id.org/beo#Parapet",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PARTITIONING": [
+                "https://www.w3id.org/beo#PartitioningWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "PLUMBINGWALL": [
+                "https://www.w3id.org/beo#PlumbingWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "RETAININGWALL": [
+                "https://www.w3id.org/beo#RetainingWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SHEAR": [
+                "https://www.w3id.org/beo#ShearWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SOLIDWALL": [
+                "https://www.w3id.org/beo#SolidWall",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WAVEWALL": [
+                "https://www.w3id.org/beo#WaveWall",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcWasteTerminal": {
+        "class": [
+            "https://www.w3id.org/mep#WasteTerminal",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "FLOORTRAP": [
+                "https://www.w3id.org/mep#FloorTrap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "FLOORWASTE": [
+                "https://www.w3id.org/mep#FloorWaste",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GULLYSUMP": [
+                "https://www.w3id.org/mep#GullySump",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "GULLYTRAP": [
+                "https://www.w3id.org/mep#GullyTrap",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "ROOFDRAIN": [
+                "https://www.w3id.org/mep#RoofDrain",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WASTEDISPOSALUNIT": [
+                "https://www.w3id.org/mep#WasteDisposalUnit",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "WASTETRAP": [
+                "https://www.w3id.org/mep#WasteTrap",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag"
+        },
+        "inv_attrs": {}
+    },
+    "IfcWindow": {
+        "class": [
+            "https://www.w3id.org/beo#Window",
+            "https://www.w3id.org/bot#Element"
+        ],
+        "enum": {
+            "LIGHTDOME": [
+                "https://www.w3id.org/beo#Ligthdome",
+                "https://www.w3id.org/bot#Element"
+            ],
+            "SKYLIGHT": [
+                "https://www.w3id.org/beo#Skylight",
+                "https://www.w3id.org/bot#Element"
+            ]
+        },
+        "attrs": {
+            "GlobalId": "https://www.w3id.org/bot#ID",
+            "Name": "https://www.w3id.org/bot#Name",
+            "Description": "https://www.w3id.org/bot#Description",
+            "Tag": "https://www.w3id.org/bot#Tag",
+            "OverallHeight": "https://www.w3id.org/beo#OverallHeight",
+            "OverallWidth": "https://www.w3id.org/beo#OverallWidth"
+        },
+        "inv_attrs": {}
+    }
+}
