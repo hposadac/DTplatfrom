@@ -114,7 +114,10 @@ const panel = BUI.Component.create(() => {
                     @click="${() => {
         storeIfc();
     }}">
-                </bim-button>          
+                </bim-button>
+                <bim-label id="GraphDBresult">
+                Upload the IFC to GraphDB
+                </bim-label>          
         </bim-panel-section>
     </bim-panel>
     `;
@@ -139,6 +142,7 @@ document.body.append(button);
 async function storeIfc() {
     const input = document.getElementById('fileInput');
     const file = input.files[0];
+    document.getElementById('GraphDBresult').textContent = "Converting to RDF and uploading...";
     if (!file) {
         alert('Please select an IFC file to upload.');
         return;
@@ -154,8 +158,8 @@ async function storeIfc() {
             throw new Error('Network response was not ok');
         }
         const result = await response.json();
-        const bridgeNames = result.bridge_names;
-        //(document.getElementById('bridgeNames') as HTMLTextAreaElement).value = bridgeNames;
+        const graphDB_result = result.graphDB_result;
+        document.getElementById('GraphDBresult').textContent = graphDB_result;
     }
     catch (error) {
         console.error('Error:', error);

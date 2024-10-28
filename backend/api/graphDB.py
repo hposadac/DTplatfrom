@@ -331,10 +331,10 @@ async def query_ifc(file: UploadFile = File(...)):
 
     # Check the response status
     if response.status_code == 204:
-        result="Turtle file successfully uploaded to GraphDB!"
+        result="IFC file successfully uploaded to GraphDB!"
         print("Response text:", response.text)  # Print the error message from the server
     else:
-        result=f"Failed to upload the Turtle file. Status code: {response.status_code}"
+        result=f"Failed to upload the IFC file. Status code: {response.status_code}"
         print("Response text:", response.text)  # Print the error message from the server
 
-    return {"bridge_names": result}
+    return {"graphDB_result": result}
