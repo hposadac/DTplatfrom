@@ -16,13 +16,14 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@thatopen/components": "^2.3.0",
-    "@thatopen/components-front": "^2.3.8",
+    "@thatopen/components": "^2.2.12",
+    "@thatopen/components-front": "^2.2.0",
     "@thatopen/fragments": "^2.2.0",
     "@thatopen/ui": "^2.2.0",
     "@types/three": "^0.160.0",
+    "http-server": "^14.1.1",
     "stats.js": "^0.17.0",
     "three": "^0.160.1",
-    "web-ifc": "^0.0.59"
+    "web-ifc": "^0.0.57"
   }
 }
